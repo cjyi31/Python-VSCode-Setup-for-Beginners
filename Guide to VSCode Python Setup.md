@@ -1,7 +1,4 @@
-**This notebook contains information for installing and setup of Python and VS Code.**
-**Prepared and created by: Grace Choo**
-**Created on: 19 January 2024**
-
+**This document contains information for installing and setup of Python and VS Code.**
 
 **Table of Contents:**
 
@@ -91,8 +88,12 @@ Then in the top right hand corner click on select kernal and select the one whic
 Once selected, you will see something as below:
 ![Alt text](<data/raw/22 Select Kernel Virtual Env - Selected.jpg>)
 
+# 5. Installing Python Packages
+Click on Terminal > New Terminal. Once Terminal tab is open then type "pip install numpy" and hit enter.
+Once done it will say successfully installed the packages.
+
 
 # 6. Additional Tips
-To preview markdown file (.md file), you may press ctrl + shift + v. Once the preview window opened, you may drag the window to the side to view it side by side as you make your edits.
-
- 
+1. To preview markdown file (.md file), you may press ctrl + shift + v. Once the preview window opened, you may drag the window to the side to view it side by side as you make your edits.
+2. To generate and export a list of all python packages installed in your computer, you may type "pip freeze > requirements.txt" in the terminal and hit "Enter".
+3. Best practice, when documenting your project, remember to have a section on Requirements in the README.md file and specify the python version you are using for the project. This is to ensure reproducibility.
