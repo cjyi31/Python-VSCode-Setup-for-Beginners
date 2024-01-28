@@ -18,6 +18,7 @@ Press windows button > type cmd > press Enter to open the command prompt. In the
 If python is installed, it will return the python version that is in your computer. Else you may skip to step 2.
 
 Else it will return an error message like/similar to:
+
 ![Alt text](<data/raw/00 Check if Python already installed.jpg>)
 
 If you do not have Python installed, proceed below. Go to <https://www.python.org/downloads/> to download the latest version of python.
@@ -71,7 +72,9 @@ In VS Code Open a workspace, then press ctrl + shift + p.
 Then in the search bar type in Python Create Environment like so and select Venv:
 ![Alt text](<data/raw/16 Create Python Virtual Environment venv method in VS Code.jpg>)
 ![Alt text](<data/raw/17 Create Python Virtual Environment venv method in VS Code2.jpg>)
+
 If you have more than 1 python installed, select the one that you want to use for the project.
+
 ![Alt text](<data/raw/18 Create Python Virtual Environment venv method in VS Code3.jpg>)
 
 If you have a list of requirements/packages to installed, you may select requirements.txt. If you do not have, you may just click OK.
@@ -86,6 +89,7 @@ Open a new jupyter notebook using ctrl + shift + p and select "Create New Jupyte
 Then in the top right hand corner click on select kernal and select the one which you've just created. If you do not see it you may click on "select another kernel".
 ![Alt text](<data/raw/21 Select Kernel Virtual Env.jpg>)
 Once selected, you will see something as below:
+
 ![Alt text](<data/raw/22 Select Kernel Virtual Env - Selected.jpg>)
 
 # 5. Installing Python Packages
