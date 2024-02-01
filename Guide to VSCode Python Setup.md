@@ -61,6 +61,7 @@ Useful settings for VS Code:
 This is very useful if you have a .py file and you only want to run selected codes without running the entire .py file.
 Good for productivity, highly recommend.
 Go to Settings and type "Jupyter Interactive" in the search bar like below. Then select the checkbox.
+
 ![Alt text](<data/raw/15a VS Code Setup_Settings_Jupyter_interactive.jpg>)
 ![Alt text](<data/raw/15 VS Code Setup_Settings_Jupyter_interactive.jpg>)
 
@@ -82,6 +83,7 @@ If you have a list of requirements/packages to installed, you may select require
 
 Wait for a while as the virtual environment is creating.
 Once it is done, you will see that you have a .venv file created in your workspace like so:
+
 ![Alt text](<data/raw/20 venv folder created in workspace.jpg>)
 
 ## 4.1 Select the virtual environment when working with Jupyter Notebook.
